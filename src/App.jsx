@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" Component={MainHome}/>
-          <Route exact path="/cart" Component={Cart}/>
+          <Route path="/cart" Component={Cart}/>
         </Routes>
       </BrowserRouter>
     </FoodProvider>
